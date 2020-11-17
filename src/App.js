@@ -9,6 +9,7 @@ import './App.css';
 import Home from './pages/Home'
 import Pricing from './pages/Pricing'
 import Features from './pages/Features'
+import NoMatch from './pages/NoMatch'
 import GiftShopCard from './components/GiftShopCard';
 import Images from './components/ImageHelper';
 import ImageCarousel from './components/ImageCarousel'
@@ -46,16 +47,16 @@ export default function App() {
     <Router>
       <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">Navbar</a>
+            <a className="navbar-brand">Onyx Cave</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <Link className="nav-link" to='/home' href="#">Home <span className="sr-only">(current)</span></Link>
-                    <Link className="nav-link" to='/features' href="#">Features</Link>
-                    <Link className="nav-link" to='/pricing' href="#">Pricing</Link>
-                    <Link className="nav-link disabled" to='#' href="#" tabIndex="-1" aria-disabled="true">Disabled</Link>
+                    <Link className="nav-link" to='/'>Home <span className="sr-only">(current)</span></Link>
+                    <Link className="nav-link" to='/pricing'>Pricing</Link>
+                    <Link className="nav-link" to='/features'>Features</Link>
+                    {/* <Link className="nav-link disabled" to='#' href="#" tabIndex="-1" aria-disabled="true">Disabled</Link> */}
                 </div>
             </div>
         </nav>
@@ -63,17 +64,22 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/home">
+          <Route exact path="/">
             <Home />
+          </Route>
+
+          <Route path="/pricing">
+            <Pricing />
           </Route>
 
           <Route path="/features">
             <Features />
           </Route>
 
-          <Route path="/pricing">
-            <Pricing />
+          <Route path="*">
+            <NoMatch />
           </Route>
+
         </Switch>
       </div>
     </Router>
