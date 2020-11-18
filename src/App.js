@@ -6,13 +6,15 @@ import {
   Link
 } from "react-router-dom";
 import './App.css';
+
 import Home from './pages/Home'
 import Pricing from './pages/Pricing'
 import Features from './pages/Features'
 import NoMatch from './pages/NoMatch'
-import GiftShopCard from './components/GiftShopCard';
-import Images from './components/ImageHelper';
-import ImageCarousel from './components/ImageCarousel'
+
+// import GiftShopCard from './components/GiftShopCard';
+// import Images from './components/ImageHelper';
+// import ImageCarousel from './components/ImageCarousel'
 
 
 // Old App Function, before React-Router was added
@@ -46,14 +48,14 @@ export default function App() {
   return (
     <Router>
       <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-dark onyx-dark">
             <a className="navbar-brand">Onyx Cave</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <Link className="nav-link" to='/'>Home <span className="sr-only">(current)</span></Link>
+                    <Link className="nav-link" to=''>Home<span className="sr-only">(current)</span></Link>
                     <Link className="nav-link" to='/pricing'>Pricing</Link>
                     <Link className="nav-link" to='/features'>Features</Link>
                     {/* <Link className="nav-link disabled" to='#' href="#" tabIndex="-1" aria-disabled="true">Disabled</Link> */}

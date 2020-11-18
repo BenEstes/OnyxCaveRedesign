@@ -1,16 +1,7 @@
-.app-Container{
-  background-image: url(Images/GiftShopAmythestCollection.jpg);
-  background-color: black;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 * {
   font-family: 'Lato', sans-serif;
 }
+
 #header {
   color: white;
   background-image: url("./Images/TeenInACave.jpg");
@@ -22,4 +13,34 @@
   #header {
     padding: 0 100px;
   }
+}
+
+.app-Container{
+  background-image: url(Images/GiftShopAmythestCollection.jpg);
+  background-color: black;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body{
+  height: 100%;
+}
+
+.bg {
+  background-image: url(Images/OnyxCaveLogo.jpg);
+  height: 100vh;
+  /* object-fit: cover; */
+
+  background-position: center top;
+  background-repeat: no-repeat;
+  /* background-size: 100%;  */
+  position: relative;
+}
+
+.onyx-dark{
+  background-color: #241e20;
+  color: #241e20;
 }
