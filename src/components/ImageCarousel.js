@@ -4,22 +4,22 @@ function ImageCarousel(props) {
         <div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={props.image1} className="d-block w-100" alt="..." />
+                    <img src={props.image1} className="d-block" alt="..." />
                 </div>
                 <div className="carousel-item">
-                    <img src={props.image2} className="d-block w-100" alt="..." />
+                    <img src={props.image2} className="d-block" alt="..." />
                 </div>
                 <div className="carousel-item">
-                    <img src={props.image3} className="d-block w-100" alt="..." />
+                    <img src={props.image3} className="d-block" alt="..." />
                 </div>
                 <div className="carousel-item">
-                    <img src={props.image4} className="d-block w-100" alt="..." />
+                    <img src={props.image4} className="d-block" alt="..." />
                 </div>
                 <div className="carousel-item">
-                    <img src={props.image5} className="d-block w-100" alt="..." />
+                    <img src={props.image5} className="d-block" alt="..." />
                 </div>
                 <div className="carousel-item">
-                    <img src={props.image6} className="d-block w-100" alt="..." />
+                    <img src={props.image6} className="d-block" alt="..." />
                 </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">

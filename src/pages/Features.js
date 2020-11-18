@@ -4,7 +4,7 @@ import Carousel from '../components/ImageCarousel'
 
 function Features(){
     return(
-        <div>
+        <div className='features-container'>
             <Carousel 
             image1={ImageHelper.CaveTourPreview}
             image2={ImageHelper.CaveTourPreview2}
