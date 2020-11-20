@@ -8,10 +8,10 @@ function NavBar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <a className="nav-link active" to='/home' href="#">Home <span className="sr-only">(current)</span></a>
-                    <a className="nav-link" to='/features' href="#">Features</a>
-                    <a className="nav-link" to='/pricing' href="#">Pricing</a>
-                    <a className="nav-link disabled" to='#' href="#" tabIndex="-1" aria-disabled="true">Disabled</a>
+                    <a className="nav-link active" to='/home'>Home <span className="sr-only">(current)</span></a>
+                    <a className="nav-link" to='/features'>Features</a>
+                    <a className="nav-link" to='/pricing'>Pricing</a>
+                    <a className="nav-link disabled" to='#' tabIndex="-1" aria-disabled="true">Disabled</a>
                 </div>
             </div>
         </nav>

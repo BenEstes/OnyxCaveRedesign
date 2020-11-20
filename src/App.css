@@ -28,19 +28,25 @@
 
 
 /* Home Page CSS */
-body{
+/* * {
+  color: black;
+} */
+
+.home-container{
   height: 100%;
+  width: 100%;
+  /* display: flex; */
 }
 
 .bg {
-  background-image: url(Images/OnyxCaveLogo.jpg);
-  height: 100vh;
+  background-image: url(Images/OnyxCaveLogoLarge.png);
+  height: 0;
+  width: 100%;
   /* object-fit: cover; */
-
-  background-position: center top;
   background-repeat: no-repeat;
-  /* background-size: 100%;  */
-  position: relative;
+  background-size: contain; 
+  padding-top: 40.41%;
+  
 }
 
 .onyx-dark{
@@ -48,6 +54,39 @@ body{
   color: #241e20;
 }
 
+.info-container {
+  /* position: relative; */
+  background-color: #241e20;
+  color: #fcd904;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.info-container div {
+  padding: 5%;
+  width: 50%;
+  text-align: center;
+  font-size: 20px;
+  border-left: 5px solid #fcd904;
+  border-right: 5px solid #fcd904;
+}
+
+.info-container div h1 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .info-container div{
+    font-size: .75rem;
+  }
+  .info-container div h1{
+    font-size: 1rem;
+  }
+
+}
 
 /* Features CSS */
 .features-container {
