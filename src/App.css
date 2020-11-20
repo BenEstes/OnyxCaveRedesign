@@ -2,6 +2,23 @@
   font-family: 'Lato', sans-serif;
 }
 
+/* NavBar Styling Override */
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}
+
 /* Pricing Page CSS */
 #header {
   color: white;
@@ -78,8 +95,13 @@
   padding-bottom: 30px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
+  .info-container {
+    display: block;
+  }
   .info-container div{
+    border-bottom: 5px solid #fcd904;
+    width: 100%;
     font-size: .75rem;
   }
   .info-container div h1{
