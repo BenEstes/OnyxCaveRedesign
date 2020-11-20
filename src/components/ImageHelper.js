@@ -1,4 +1,5 @@
 import BusinessPreview from '../Images/BusinessPreview.jpg'
+import BusinessPreview2 from '../Images/BusinessPreview2.jpg'
 import CaveBaconMaybe from '../Images/CaveBaconMaybe.jpg'
 import CaveCoral from '../Images/CaveCoral.jpg'
 import CaveCoralMaybe from '../Images/CaveCoralMaybe.jpg'
@@ -33,12 +34,15 @@ import GiftShopSkulls from '../Images/GiftShopSkulls.jpg'
 import GiftShopWhiteInside from '../Images/GiftShopWhiteInside.jpg'
 import OnyxCaveLogo from '../Images/OnyxCaveLogo.jpg'
 import OnyxCaveLogoLarge from '../Images/OnyxCaveLogoLarge.png'
+import PricingImageKid from '../Images/PricingImageKid.jpg'
+import PricingImageTeen from '../Images/PricingImageTeen.jpg'
 import RandomGiftShopItem from '../Images/RandomGiftShopItem.jpg'
 import RandomGiftShopPreview from '../Images/RandomGiftShopPreview.jpg'
 
 
 export default {
     BusinessPreview,
+    BusinessPreview2,
     CaveBaconMaybe,
     CaveCoral,
     CaveCoralMaybe,
@@ -73,6 +77,8 @@ export default {
     GiftShopWhiteInside,
     OnyxCaveLogo,
     OnyxCaveLogoLarge,
+    PricingImageKid,
+    PricingImageTeen,
     RandomGiftShopItem,
     RandomGiftShopPreview
 };
