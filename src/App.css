@@ -8,39 +8,45 @@
 }
 
 .navbar-nav {
-  float: left !important;
+  flex-direction: row;
 }
 
-.navbar-nav.navbar-right:last-child {
-  margin-right: -15px !important;
+.navbar-nav .nav-link {
+  padding-right: .5rem;
+  padding-left: .5rem;
 }
 
-.navbar-right {
-  float: right!important;
-}
 
 /* Pricing Page CSS */
+.background-div{
+height: 100%;
+width: 100%;
+background-color: black;
+}
+
 #header {
   color: white;
-  background-image: url("./Images/TeenInACave.jpg");
+  background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.7)), url("./Images/CaveTourPreview3.jpg");
   height: 95vh;
   background-position: center;
   background-size: cover;
 }
+
 @media (max-width: 576px) {
   #header {
-    padding: 0 100px;
+    padding: 0 40px;
+  }
+
+  .display-3 {
+    font-size: 40px;
   }
 }
 
-.app-Container{
-  background-image: url(Images/GiftShopAmythestCollection.jpg);
-  background-color: black;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.card img {
+  max-height: 225px;
+  object-fit: cover;
   position: relative;
+  
 }
 
 

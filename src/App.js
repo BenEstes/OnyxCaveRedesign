@@ -48,17 +48,17 @@ export default function App() {
   return (
     <Router>
       <div>
-      <nav className="navbar navbar-expand-lg navbar-dark onyx-dark">
-            <a className="navbar-brand">Onyx Cave</a>
-            
-            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div className="navbar-nav">
-                    <Link className="nav-link" to=''>Home<span className="sr-only">(current)</span></Link>
-                    <Link className="nav-link" to='/pricing'>Pricing</Link>
-                    <Link className="nav-link" to='/features'>Features</Link>
-                    {/* <Link className="nav-link disabled" to='#' href="#" tabIndex="-1" aria-disabled="true">Disabled</Link> */}
-                </div>
+        <nav className="navbar navbar-expand-lg navbar-dark onyx-dark">
+
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div className="navbar-nav">
+              <a className="navbar-brand">Onyx Cave</a>
+              <Link className="nav-link" to=''>Home<span className="sr-only">(current)</span></Link>
+              <Link className="nav-link" to='/pricing'>Pricing</Link>
+              <Link className="nav-link" to='/features'>Features</Link>
+              {/* <Link className="nav-link disabled" to='#' href="#" tabIndex="-1" aria-disabled="true">Disabled</Link> */}
             </div>
+          </div>
         </nav>
 
         {/* A <Switch> looks through its children <Route>s and

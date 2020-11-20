@@ -1,6 +1,8 @@
+import ImageHelper from '../components/ImageHelper'
+
 function Pricing() {
     return (
-        <div>
+        <div className="background-div">
             <div id="header" class="jumbotron d-flex flex-column justify-content-center align-items-center m-0 text-center">
                 <h1 class="display-3">Season: March - December 31st</h1>
                 <p class="lead">Call 270-773-2323 for more information</p>
@@ -14,7 +16,7 @@ function Pricing() {
                     <div class="row">
                         <div class="col-lg-4 mb-4">
                             <div class="card">
-                                <img src="IMAGESOURCEHERE" class="card-img-top" alt="AdultPrices" />
+                                <img src={ImageHelper.PricingImageAdult} class="card-img-top" alt="AdultPrices" />
                                 <div class="card-body">
                                     <h5 class="card-title">Adults - 12+</h5>
                                     <p class="card-text">$9.50</p>
@@ -23,7 +25,7 @@ function Pricing() {
                         </div>
                         <div class="col-lg-4 mb-4">
                             <div class="card">
-                                <img src="IMAGESOURCEHERE" class="card-img-top" alt="ChildrenHeader" />
+                                <img src={ImageHelper.PricingImageTeen} class="card-img-top" alt="ChildrenHeader" />
                                 <div class="card-body">
                                     <h5 class="card-title">Children 5 - 11</h5>
                                     <p class="card-text">$6.50</p>
@@ -32,7 +34,7 @@ function Pricing() {
                         </div>
                         <div class="col-lg-4 mb-4">
                             <div class="card">
-                                <img src="IMAGESOURCEHERE" class="card-img-top" alt="4andUnderHeader" />
+                                <img src={ImageHelper.PricingImageKid} class="card-img-top" alt="4andUnderHeader" />
                                 <div class="card-body">
                                     <h5 class="card-title">4 and Under</h5>
                                     <p class="card-text">FREE</p>

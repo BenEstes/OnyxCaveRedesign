@@ -34,6 +34,7 @@ import GiftShopSkulls from '../Images/GiftShopSkulls.jpg'
 import GiftShopWhiteInside from '../Images/GiftShopWhiteInside.jpg'
 import OnyxCaveLogo from '../Images/OnyxCaveLogo.jpg'
 import OnyxCaveLogoLarge from '../Images/OnyxCaveLogoLarge.png'
+import PricingImageAdult from '../Images/PricingImageAdult.jpg'
 import PricingImageKid from '../Images/PricingImageKid.jpg'
 import PricingImageTeen from '../Images/PricingImageTeen.jpg'
 import RandomGiftShopItem from '../Images/RandomGiftShopItem.jpg'
@@ -77,6 +78,7 @@ export default {
     GiftShopWhiteInside,
     OnyxCaveLogo,
     OnyxCaveLogoLarge,
+    PricingImageAdult,
     PricingImageKid,
     PricingImageTeen,
     RandomGiftShopItem,
