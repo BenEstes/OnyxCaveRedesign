@@ -5,6 +5,7 @@ import CaveCoral from '../Images/CaveCoral.jpg'
 import CaveCoralMaybe from '../Images/CaveCoralMaybe.jpg'
 import CaveDrappery from '../Images/CaveDrappery.jpg'
 import CaveTourCaveBacon from '../Images/CaveTourCaveBacon.jpg'
+import CaveTourNeedltites from '../Images/CaveTourNeedltites.jpg'
 import CaveTourPreview from '../Images/CaveTourPreview.jpg'
 import CaveTourPreview2 from '../Images/CaveTourPreview2.jpg'
 import CaveTourPreview3 from '../Images/CaveTourPreview3.jpg'
@@ -49,6 +50,7 @@ export default {
     CaveCoralMaybe,
     CaveDrappery,
     CaveTourCaveBacon,
+    CaveTourNeedltites,
     CaveTourPreview,
     CaveTourPreview2,
     CaveTourPreview3,
