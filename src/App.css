@@ -2,7 +2,16 @@
   font-family: 'Lato', sans-serif;
 }
 
+.parent-container{
+  background-color: #fcd904;
+}
+
 /* NavBar Styling Override */
+.navbar {
+  position: sticky;
+  top: 0;
+}
+
 .navbar-collapse.collapse {
   display: block!important;
 }
@@ -179,4 +188,51 @@
 .card-container{
   display: flex;
   justify-content: space-between;
+}
+
+/* Footer CSS */
+
+.footer-info {
+  padding: 40px 0px 20px 0px;
+  text-align: center;
+  background-color: inherit;
+}
+
+.fa-facebook{
+  font-size: 30px;
+}
+
+.built-by {
+}
+
+.follow-us{
+}
+
+.stay-connected {
+}
+
+@media only screen and (max-width: 1600px) {
+  .footer-info {
+    /* background: blue; */
+  }
+
+  .built-by {
+    position: relative;
+    width: 40%;
+    left: 30%;
+  }
+  
+  .follow-us{
+    position: relative;
+    width: 25%;
+    left: 37.5%;
+  }
+  
+  .stay-connected {
+    position: relative;
+    width: 25%;
+    left: 37.5%;
+  }
+
+
 }

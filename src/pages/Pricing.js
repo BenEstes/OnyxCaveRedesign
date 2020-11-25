@@ -18,7 +18,7 @@ function Pricing() {
                             <div class="card">
                                 <img src={ImageHelper.PricingImageAdult} class="card-img-top" alt="AdultPrices" />
                                 <div class="card-body">
-                                    <h5 class="card-title">Adults - 12+</h5>
+                                    <h5 class="card-title">Ages 12 and Older</h5>
                                     <p class="card-text">$9.50</p>
                                 </div>
                             </div>
@@ -27,7 +27,7 @@ function Pricing() {
                             <div class="card">
                                 <img src={ImageHelper.PricingImageTeen} class="card-img-top" alt="ChildrenHeader" />
                                 <div class="card-body">
-                                    <h5 class="card-title">Children 5 - 11</h5>
+                                    <h5 class="card-title">Ages 5 - 11</h5>
                                     <p class="card-text">$6.50</p>
                                 </div>
                             </div>
@@ -36,8 +36,8 @@ function Pricing() {
                             <div class="card">
                                 <img src={ImageHelper.PricingImageKid} class="card-img-top" alt="4andUnderHeader" />
                                 <div class="card-body">
-                                    <h5 class="card-title">4 and Under</h5>
-                                    <p class="card-text">FREE</p>
+                                    <h5 class="card-title">Ages 4 and Younger</h5>
+                                    <p class="card-text">Free</p>
                                 </div>
                             </div>
                         </div>

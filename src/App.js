@@ -10,7 +10,9 @@ import './App.css';
 import Home from './pages/Home'
 import Pricing from './pages/Pricing'
 import Features from './pages/Features'
+import GiftShop from './pages/GiftShop'
 import NoMatch from './pages/NoMatch'
+
 
 // import GiftShopCard from './components/GiftShopCard';
 // import Images from './components/ImageHelper';
@@ -47,15 +49,16 @@ import NoMatch from './pages/NoMatch'
 export default function App() {
   return (
     <Router>
-      <div>
+      <div className="parent-container">
         <nav className="navbar navbar-expand-lg navbar-dark onyx-dark">
 
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               <a className="navbar-brand">Onyx Cave</a>
-              <Link className="nav-link" to=''>Home<span className="sr-only">(current)</span></Link>
+              <Link className="nav-link" to='/'>Home<span className="sr-only">(current)</span></Link>
               <Link className="nav-link" to='/pricing'>Pricing</Link>
               <Link className="nav-link" to='/features'>Features</Link>
+              <Link className="nav-link" to='/giftShop'>Rock Shop</Link>
               {/* <Link className="nav-link disabled" to='#' href="#" tabIndex="-1" aria-disabled="true">Disabled</Link> */}
             </div>
           </div>
@@ -76,11 +79,27 @@ export default function App() {
             <Features />
           </Route>
 
+          <Route path="/giftShop">
+            <GiftShop />
+          </Route>
+
           <Route path="*">
             <NoMatch />
           </Route>
 
         </Switch>
+        <div className="footer-info">
+          <h5 className='built-by'>Website Built and Powered By:
+            <a href='https://sites.google.com/barren.kyschools.us/bcskillsdevelopmentacademy' target='_blank'> BCSkills</a>
+          </h5>
+
+          <h5 className='follow-us'>Follow Us On Facebook: <a href="https://www.facebook.com/onyxcave" target='_blank'><i class="fab fa-facebook"></i></a>
+          </h5>
+
+          <h5 className='stay-connected'>Stay Connected:
+            <h6>(270) 773-2323</h6>
+          </h5>
+        </div>
       </div>
     </Router>
   );
