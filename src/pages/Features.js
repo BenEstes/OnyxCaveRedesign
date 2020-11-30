@@ -26,9 +26,7 @@ function Features() {
                 />
                 <CaveInfoCard
                     cardImage={ImageHelper.CaveTourCaveBacon}
-                    cardDescription='Cave bacon is formed from mineral deposits as water runs down the walls of the cave. The layers of the cave bacon can take on different colors depending on the impurities in the water, resulting in the thin layers of stripped calcite resembling bacon in appearance.
-
-            This cave bacon is part of a larger wall of cave bacon - a wall often called the "waterfall wall" because it looks like a frozen waterfall.'
+                    cardDescription='Cave bacon is formed from mineral deposits as water runs down the walls of the cave. The layers of the cave bacon can take on different colors depending on the impurities in the water, resulting in the thin layers of stripped calcite resembling bacon in appearance.'
                 />
                 <CaveInfoCard
                     cardImage={ImageHelper.CaveDrappery}
