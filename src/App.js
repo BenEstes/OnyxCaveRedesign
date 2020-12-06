@@ -90,11 +90,11 @@ export default function App() {
         </Switch>
         <div className="footer-info">
           
-          <h5 className='follow-us'>Follow Us On Facebook: <a href="https://www.facebook.com/onyxcave" target='_blank'><i class="fab fa-facebook"></i></a>
+          <h5 className='follow-us'>Follow Us On Facebook: <a href="https://www.facebook.com/onyxcave" target='_blank'><i className="fab fa-facebook"></i></a>
           </h5>
 
           <h5 className='stay-connected'>Stay Connected:
-            <h6>(270) 773-2323</h6>
+            <p>(270) 773-2323</p>
           </h5>
 
           <h5 className='built-by'>Website Built and Powered By:

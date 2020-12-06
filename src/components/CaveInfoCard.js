@@ -1,15 +1,18 @@
 function CaveInfoCard(props) {
     return (
         <div className='flip-card-container'>
-            <div class="flip-card col">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
+            <div className="flip-card col">
+                <div className="flip-card-inner">
+
+                    <div className="flip-card-front">
                         <img src={props.cardImage} alt="Cave Formation" />
                     </div>
-                    <div class="flip-card-back">
+
+                    <div className="flip-card-back">
                         <h1>{props.cardName}</h1>
                         <p>{props.cardDescription}</p>
                     </div>
+                    
                 </div>
             </div>
         </div>

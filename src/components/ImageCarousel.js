@@ -33,10 +33,14 @@ class Carousel extends PureComponent {
     render() {
         const { currentIndex, images } = this.state
         return (
-            <div>
-                <div onClick={this.handleCarouselLeftPress}><i class="fas fa-arrow-circle-left"></i></div>
-                <img alt='Carousel slide' src={images[currentIndex]} />
-                <div onClick={this.handleCarouselRightPress}><i class="fas fa-arrow-circle-right"></i></div>
+            <div className='carousel'>
+                <div className="left-right-arrows">
+                    <div onClick={this.handleCarouselLeftPress}><i class="fas fa-arrow-circle-left"></i></div>
+                    <div onClick={this.handleCarouselRightPress}><i class="fas fa-arrow-circle-right"></i></div>
+                </div>
+                <div className='img-container'>
+                    <img alt='Carousel slide' src={images[currentIndex]} />
+                </div>
             </div>
         )
     }

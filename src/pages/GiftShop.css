@@ -1,0 +1,31 @@
+/* GiftShop CSS */
+.giftshop-page-container{
+    background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.7)), url("../Images/CementBackground.jpeg");
+    background-color: black;
+  }
+  
+  .welcome-container{
+    color: white;
+    text-align: center;
+  }
+  
+  .giftshop-card{
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    padding: 5px;
+  }
+  
+  .card-img-top{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .giftshop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  

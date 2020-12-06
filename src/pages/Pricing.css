@@ -1,0 +1,30 @@
+/* Pricing Page CSS */
+.background-div{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+  
+  #header {
+    color: white;
+    background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.7)), url("../Images/CaveTourPreview3.jpg");
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  @media (max-width: 576px) {
+    #header {
+      padding: 0 40px;
+    }
+  
+    .display-3 {
+      font-size: 40px;
+    }
+  }
+  
+  .card img {
+    max-height: 225px;
+    object-fit: cover;
+    position: relative;
+  }

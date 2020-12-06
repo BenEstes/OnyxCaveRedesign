@@ -1,4 +1,5 @@
 import ImageHelper from '../components/ImageHelper'
+import './Pricing.css'
 
 function Pricing() {
     return (

@@ -1,0 +1,22 @@
+/* No Match Page */
+.main-no-match {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: yellow;
+    background-image: url('../Images/NoMatchBackground.png');
+  }
+  .no-match-container{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-60%);
+    transform: translateX(-25%);
+    text-align: center;
+  }
+  .no-match-container h1{
+    font-size: 160px;
+    margin: 0%;
+    font-weight: 900;
+    letter-spacing: 20px;
+  }

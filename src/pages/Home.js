@@ -1,4 +1,5 @@
 import ImageHelper from '../components/ImageHelper'
+import './Home.css'
 
 function Home() {
     return (

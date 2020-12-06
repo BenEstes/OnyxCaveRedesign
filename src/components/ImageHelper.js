@@ -12,6 +12,7 @@ import CaveTourPreview3 from '../Images/CaveTourPreview3.jpg'
 import CaveTourPreview4 from '../Images/CaveTourPreview4.jpg'
 import CaveTourPreview5 from '../Images/CaveTourPreview5.jpg'
 import CaveTourRandomPreview from '../Images/CaveTourRandomPreview.jpg'
+import CementBackground from '../Images/CementBackground.jpeg'
 import GiftShopAmythestCollection from '../Images/GiftShopAmythestCollection.jpg'
 import GiftShopBismuth from '../Images/GiftShopBismuth.jpg'
 import GiftShopChessBoard from '../Images/GiftShopChessBoard.jpg'
@@ -33,6 +34,7 @@ import GiftShopRocks from '../Images/GiftShopRocks.jpg'
 import GiftShopShirts from '../Images/GiftShopShirts.jpg'
 import GiftShopSkulls from '../Images/GiftShopSkulls.jpg'
 import GiftShopWhiteInside from '../Images/GiftShopWhiteInside.jpg'
+import MountainBackground from '../Images/MountainBackground.jpeg'
 import OnyxCaveLogo from '../Images/OnyxCaveLogo.jpg'
 import OnyxCaveLogoLarge from '../Images/OnyxCaveLogoLarge.png'
 import PricingImageAdult from '../Images/PricingImageAdult.jpg'
@@ -57,6 +59,7 @@ export default {
     CaveTourPreview4,
     CaveTourPreview5,
     CaveTourRandomPreview,
+    CementBackground,
     GiftShopAmythestCollection,
     GiftShopBismuth,
     GiftShopChessBoard,
@@ -78,6 +81,7 @@ export default {
     GiftShopShirts,
     GiftShopSkulls,
     GiftShopWhiteInside,
+    MountainBackground,
     OnyxCaveLogo,
     OnyxCaveLogoLarge,
     PricingImageAdult,

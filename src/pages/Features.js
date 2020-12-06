@@ -1,6 +1,7 @@
 import Carousel from '../components/ImageCarousel'
 import CaveInfoCard from '../components/CaveInfoCard'
 import ImageHelper from '../components/ImageHelper'
+import './Features.css'
 
 
 function Features() {
