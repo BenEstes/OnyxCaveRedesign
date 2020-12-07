@@ -35,8 +35,8 @@ class Carousel extends PureComponent {
         return (
             <div className='carousel'>
                 <div className="left-right-arrows">
-                    <div onClick={this.handleCarouselLeftPress}><i class="fas fa-arrow-circle-left"></i></div>
-                    <div onClick={this.handleCarouselRightPress}><i class="fas fa-arrow-circle-right"></i></div>
+                    <div onClick={this.handleCarouselLeftPress}><i className="fas fa-arrow-circle-left"></i></div>
+                    <div onClick={this.handleCarouselRightPress}><i className="fas fa-arrow-circle-right"></i></div>
                 </div>
                 <div className='img-container'>
                     <img alt='Carousel slide' src={images[currentIndex]} />

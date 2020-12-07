@@ -8,7 +8,7 @@ function Features() {
     return (
         <div className='features-container'>
             <Carousel />
-            <div class='card-container'>
+            <div className='card-container'>
                 <CaveInfoCard
                     cardImage={ImageHelper.CaveCoralMaybe}
                     cardDescription='Dripstone is formed as water drips from the ceiling of a cave, leaving behind small deposits of calcite. Formations that are created through this process include stalactites, stalagmites, and columns.'

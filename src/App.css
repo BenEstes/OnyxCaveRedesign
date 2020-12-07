@@ -9,6 +9,7 @@
 
 /* NavBar Styling Override */
 .navbar {
+  z-index: 1;
   position: sticky;
   top: 0;
 }
