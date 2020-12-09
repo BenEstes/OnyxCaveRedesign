@@ -8,7 +8,7 @@ class Carousel extends PureComponent {
         super(props)
         this.state = {
             currentIndex: 0,
-            images: [ImageHelper.BusinessPreview, ImageHelper.CaveTourPreview, ImageHelper.CaveTourPreview2, ImageHelper.CaveTourPreview3, ImageHelper.CaveTourPreview4, ImageHelper.CaveTourPreview5, ImageHelper.CaveTourRandomPreview]
+            images: [ImageHelper.BusinessPreview2, ImageHelper.CaveTourSights1, ImageHelper.CaveTourSights2, ImageHelper.CaveTourSights3, ImageHelper.CaveTourSights4, ImageHelper.CaveTourSights5, ImageHelper.CaveTourSights6, ImageHelper.CaveTourSights7, ImageHelper.CaveTourSights8]
         }
     }
     componentDidMount() {

@@ -17,7 +17,7 @@ function Home() {
 
                     <div className='info-inner-container'>
                         <h1>Inside Onyx Cave</h1>
-                            <img src={ImageHelper.CaveTourPreview3} className='info-image' />
+                            <img src={ImageHelper.CaveTourSights5} className='info-image' />
                         <p>Onyx Cave offers its viewers beautiful cave coral, a wall of cave bacon, and a 40' tall column.</p>
                         <p>The cave is roughly 60 degrees year round. Tours are 30 minutes long and can be enjoyed by people of all ages.</p>
                     </div>
