@@ -24,6 +24,12 @@
   margin: 15px;
   padding: 5px;
 }
+
+.card img {
+  max-height: 225px;
+  object-fit: cover;
+  position: relative;
+}
   
 .card-img-top{
   height: 100%;
