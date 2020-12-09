@@ -40,6 +40,7 @@ import OnyxCaveLogoLarge from '../Images/OnyxCaveLogoLarge.png'
 import PricingImageAdult from '../Images/PricingImageAdult.jpg'
 import PricingImageKid from '../Images/PricingImageKid.jpg'
 import PricingImageTeen from '../Images/PricingImageTeen.jpg'
+import PricingPostCard from '../Images/PricingPostCard.png'
 import RandomGiftShopItem from '../Images/RandomGiftShopItem.jpg'
 import RandomGiftShopPreview from '../Images/RandomGiftShopPreview.jpg'
 
@@ -87,6 +88,7 @@ export default {
     PricingImageAdult,
     PricingImageKid,
     PricingImageTeen,
+    PricingPostCard,
     RandomGiftShopItem,
     RandomGiftShopPreview
 };

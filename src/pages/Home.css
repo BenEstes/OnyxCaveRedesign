@@ -17,7 +17,6 @@
   background-repeat: no-repeat;
   background-size: contain; 
   padding-top: 40.41%;
-    
 }
   
 .onyx-dark{
@@ -36,15 +35,14 @@
   
 .info-inner-container {
   padding: 5%;
+  padding-top: 30px;
   width: 50%;
   text-align: center;
   font-size: 20px;
-  border-left: 5px solid #fcd904;
-  border-right: 5px solid #fcd904;
 }
   
 .info-container div h1 {
-  font-size: 30px;
+  font-size: 50px;
   padding-bottom: 30px;
 }
 
@@ -60,10 +58,15 @@
   .info-container div{
     border-bottom: 5px solid #fcd904;
     width: 100%;
-    font-size: .75rem;
+    font-size: 1.25rem;
   }
+
   .info-container div h1{
-    font-size: 1rem;
+    font-size: 2rem;
+  }
+  
+  .info-container div p{
+    padding: 25px;
   }
   
 }

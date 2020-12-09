@@ -12,37 +12,21 @@ function Pricing() {
                 <p className="lead">Tours are approximently 30 minutes long</p>
                 <p className="lead">Bring a camera to capture the unique formations within the cave!</p>
             </div>
-            <div id="gallery" className="bg-dark p-5">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-4 mb-4">
-                            <div className="card">
-                                <img src={ImageHelper.PricingImageAdult} className="card-img-top" alt="AdultPrices" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Ages 12 and Older</h5>
-                                    <p className="card-text">$9.50</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 mb-4">
-                            <div className="card">
-                                <img src={ImageHelper.PricingImageTeen} className="card-img-top" alt="ChildrenHeader" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Ages 5 - 11</h5>
-                                    <p className="card-text">$6.50</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 mb-4">
-                            <div className="card">
-                                <img src={ImageHelper.PricingImageKid} className="card-img-top" alt="4andUnderHeader" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Ages 4 and Younger</h5>
-                                    <p className="card-text">Free</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div>
+                <div className='pricing-card'>
+                    <img src={ImageHelper.PricingPostCard} alt="Pricing Post Card - Adults 12+ $9.50 "/>
+                    <h3>Adults 12+</h3>
+                    <h3>$9.50</h3>
+                </div>
+                <div className='pricing-card'>
+                    <img src={ImageHelper.PricingPostCard} alt="Pricing Post Card - Children 5-11 $6.50 "/>
+                    <h3>5-11</h3>
+                    <h3>$6.50</h3>
+                </div>
+                <div className='pricing-card'>
+                    <img src={ImageHelper.PricingPostCard} alt="Pricing Post Card - 4&Younger FREE "/>
+                    <h3>4 & Younger</h3>
+                    <h3>FREE</h3>
                 </div>
             </div>
         </div>

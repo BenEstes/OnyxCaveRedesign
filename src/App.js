@@ -14,36 +14,6 @@ import GiftShop from './pages/GiftShop'
 import NoMatch from './pages/NoMatch'
 
 
-// import GiftShopCard from './components/GiftShopCard';
-// import Images from './components/ImageHelper';
-// import ImageCarousel from './components/ImageCarousel'
-
-
-// Old App Function, before React-Router was added
-// function App() {
-//   return (
-//     <div className="app-Container">
-//       <NavBar/>
-//       <GiftShopCard 
-//         imageSrc={Images.BusinessPreview}
-//         imageAlt='Exmaple Item Alt Description'
-//         itemName='Crystal Tree'
-//       />
-//       <GiftShopCard 
-//         imageSrc={Images.CaveBaconMaybe}
-//         imageAlt='Exmaple Item Alt Description'
-//         itemName='Crystal Tree'
-//       />
-//       {/* <ImageCarousel 
-//         image={GiftShopCrystalTree}  
-//       /> */}
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
 // React-Router
 
 export default function App() {

@@ -4,7 +4,7 @@ import './GiftShop.css'
 
 function GiftShop() {
     return (
-        <>
+        <div>
             <div className='giftshop-page-container'>
                 <div className="welcome-container">
                     <h1>Welcome to the Rock Shop!</h1>
@@ -28,10 +28,10 @@ function GiftShop() {
                     <GiftShopCard image={ImageHelper.GiftShopRocks} itemName='Rock Bags' />
                     <GiftShopCard image={ImageHelper.GiftShopShirts} itemName='T-Shirts' />
                     <GiftShopCard image={ImageHelper.GiftShopSkulls} itemName='Crystal Skulls' />
-                    <GiftShopCard image={ImageHelper.GiftShopWhiteInside} itemName='???' />
+                    <GiftShopCard image={ImageHelper.GiftShopWhiteInside} itemName='Geode' />
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

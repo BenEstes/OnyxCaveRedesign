@@ -23,8 +23,18 @@
 }
 
 .navbar-nav .nav-link {
-  padding-right: .5rem;
-  padding-left: .5rem;
+  padding-right: .4rem;
+  padding-left: .4rem;
+}
+
+@media (max-width: 374px) {
+  .navbar-brand{
+    display: none;
+  }
+}
+
+@media (max-width: 350px) {
+
 }
 
 
@@ -38,37 +48,4 @@
 
 .fa-facebook{
   font-size: 30px;
-}
-
-.built-by {
-}
-
-.follow-us{
-}
-
-.stay-connected {
-}
-
-@media only screen and (max-width: 1600px) {
-  .footer-info {
-    /* background: blue; */
-  }
-
-  .built-by {
-    position: relative;
-    width: 40%;
-    left: 30%;
-  }
-  
-  .follow-us{
-    position: relative;
-    width: 25%;
-    left: 37.5%;
-  }
-  
-  .stay-connected {
-    position: relative;
-    width: 25%;
-    left: 37.5%;
-  }
 }
