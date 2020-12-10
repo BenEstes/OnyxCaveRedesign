@@ -3,6 +3,10 @@
   color: black;
 } */
 
+* {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
 .home-container{
   height: 100%;
   width: 100%;
