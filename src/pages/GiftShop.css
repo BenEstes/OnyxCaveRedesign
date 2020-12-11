@@ -18,6 +18,20 @@
   padding: 0px 20px;
 }
 
+.giftshop-items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* GiftShop Card */
+.card-body{
+  font-size: 1.25rem;
+  background-color: #fcd904;
+}
+
 .giftshop-card{
   height: 300px;
   width: 300px;
@@ -25,27 +39,14 @@
   padding: 5px;
 }
 
-.card img {
-  max-height: 225px;
-  object-fit: cover;
-  position: relative;
-}
-  
 .card-img-top{
   height: 100%;
   width: 100%;
   border-radius: 5px solid #fcd904;
 }
-  
-.giftshop-items{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-  
-/* GiftShop Card */
 
-.card-body{
-  background-color: #fcd904;
+.card img {
+  max-height: 225px;
+  object-fit: cover;
+  position: relative;
 }
