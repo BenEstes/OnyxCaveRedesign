@@ -24,8 +24,8 @@ export default function App() {
 
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="navbar-brand">Onyx Cave</a>
-              <Link className="nav-link" to='/'>Home<span className="sr-only">(current)</span></Link>
+              <a href={'/'} className="navbar-brand">Onyx Cave</a>
+              <Link className="nav-link" to='/'>Home</Link>
               <Link className="nav-link" to='/pricing'>Pricing</Link>
               <Link className="nav-link" to='/features'>Features</Link>
               <Link className="nav-link" to='/giftShop'>Rock Shop</Link>
@@ -60,15 +60,15 @@ export default function App() {
         </Switch>
         <div className="footer-info">
           
-          <h5 className='follow-us'>Follow Us On Facebook: <a href="https://www.facebook.com/onyxcave" target='_blank'><i className="fab fa-facebook"></i></a>
+          <h5 className='follow-us'>Follow Us On Facebook: <a href="https://www.facebook.com/onyxcave" rel="noreferrer" target='_blank'><i className="fab fa-facebook"></i></a>
           </h5>
 
           <h5 className='stay-connected'>Stay Connected:
-            <p>(270) 773-2323</p>
+            <a href='tel:+12707732323'> (270) 773-2323</a>
           </h5>
 
           <h5 className='built-by'>Website Built and Powered By:
-            <a href='https://sites.google.com/barren.kyschools.us/bcskillsdevelopmentacademy' target='_blank'> BCSkills</a>
+            <a href='https://sites.google.com/barren.kyschools.us/bcskillsdevelopmentacademy' rel="noreferrer" target='_blank'> BCSkills</a>
           </h5>
 
         </div>
@@ -76,19 +76,3 @@ export default function App() {
     </Router>
   );
 }
-
-
-
-// Here for if I want to build all pages within the app.js file
-
-// function Home() {
-//   return <h2>Home</h2>;
-// }
-
-// function About() {
-//   return <h2>About</h2>;
-// }
-
-// function Users() {
-//   return <h2>Users</h2>;
-// }

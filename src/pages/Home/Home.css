@@ -14,7 +14,7 @@
 }
   
 .bg {
-  background-image: url('../Images/OnyxCaveLogoLarge.png');
+  background-image: url('../../Images/OnyxCaveLogoLarge.png');
   height: 0;
   width: 100%;
   /* object-fit: cover; */

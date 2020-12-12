@@ -1,5 +1,5 @@
-import GiftShopCard from '../components/GiftShopCard'
-import ImageHelper from '../components/ImageHelper'
+import GiftShopCard from '../../components/GiftShopCard'
+import ImageHelper from '../../components/ImageHelper'
 import './GiftShop.css'
 
 function GiftShop() {

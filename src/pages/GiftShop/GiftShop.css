@@ -1,6 +1,6 @@
 /* GiftShop CSS */
 .giftshop-page-container{
-  background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.7)), url("../Images/CementBackground.jpeg");
+  background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.7)), url("../../Images/CementBackground.jpeg");
   background-color: black;
 }
   
