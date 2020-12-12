@@ -55,7 +55,7 @@ import RandomGiftShopItem from '../Images/RandomGiftShopItem.jpg'
 import RandomGiftShopPreview from '../Images/RandomGiftShopPreview.jpg'
 
 
-export default {
+ export default {
     BusinessPreview,
     BusinessPreview2,
     CaveBacon,

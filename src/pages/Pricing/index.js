@@ -1,4 +1,4 @@
-import ImageHelper from '../components/ImageHelper'
+import ImageHelper from '../../components/ImageHelper'
 import './Pricing.css'
 
 function Pricing() {
