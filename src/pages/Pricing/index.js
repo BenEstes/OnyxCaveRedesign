@@ -5,10 +5,10 @@ function Pricing() {
     return (
         <div className="background-div">
             <div id="header" className="jumbotron d-flex flex-column justify-content-center align-items-center m-0 text-center">
-                <h1 className="display-3">Season: March - December 31st</h1>
-                <p className="lead">Call 270-773-2323 for more information</p>
+                <h1 className="display-3">Season:</h1>
+                <p className="lead">March - December 31st</p>
                 <p className="lead">Onyx Cave, 93 Huckleberry Knob Road Cave City, KY 42127</p>
-                <h1 className="display-3">Info</h1>
+                <h1 className="display-3">Info:</h1>
                 <p className="lead">Tours are approximently 30 minutes long</p>
                 <p className="lead">Bring a camera to capture the unique formations within the cave!</p>
             </div>

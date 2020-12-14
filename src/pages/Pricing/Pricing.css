@@ -2,7 +2,7 @@
 .background-div{
   height: 100%;
   width: 100%;
-  background-color: black;}
+  background-color: #241e20;}
   
 #header {
   color: white;
@@ -46,6 +46,7 @@
   display: inline-block;
   position: relative;
   font-size: 1.3em;
+  font-weight: bold;
 }
 
 .pricing-ages{
@@ -65,6 +66,15 @@
   
   .display-3 {
     font-size: 40px;
+  }
+
+  .pricing-ages{
+    font-size: 1.1rem;
+  }
+
+  .pricing-price{
+    font-size: 1.15rem;
+
   }
 }
   

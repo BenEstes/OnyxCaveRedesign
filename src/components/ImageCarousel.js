@@ -23,7 +23,7 @@ class Carousel extends PureComponent {
     }
 
     componentDidMount() {
-      this.interval = setInterval(this.handleCarouselRightPress, 15000)
+      this.interval = setInterval(this.handleCarouselRightPress, 4000)
     }
 
     componentWillUnmount() {

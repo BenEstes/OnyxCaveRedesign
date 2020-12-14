@@ -28,17 +28,18 @@
   }
 
   .left-arrow {
-    height: 100%;
+    height: calc(100% - 50px);
     width: 100%;
     font-size: 2rem;
     color: white;
     width: 50%;
     position: absolute;
-    top: 0;
+    bottom: 0;
+    cursor: pointer;
   }
 
   .right-arrow {
-    height: 100%;
+    height: calc(100% - 50px);
     width: 100%;
     font-size: 2rem;
     color: white;
@@ -46,7 +47,8 @@
     position: absolute;
     float: right;
     right: 0;
-    top: 0;
+    bottom: 0;
+    cursor: pointer;
   }
 
   .left-arrow i {
