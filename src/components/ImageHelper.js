@@ -24,16 +24,15 @@ import CaveTourSights6 from '../Images/CaveTourSights6.jpeg'
 import CaveTourSights7 from '../Images/CaveTourSights7.jpeg'
 import CaveTourSights8 from '../Images/CaveTourSights8.jpeg'
 import CementBackground from '../Images/CementBackground.jpeg'
-import GiftShopAmythestCollection from '../Images/GiftShopAmythestCollection.jpg'
+import GiftShopAmethystCollection from '../Images/GiftShopAmethystCollection.jpg'
 import GiftShopBismuth from '../Images/GiftShopBismuth.jpg'
 import GiftShopChessBoard from '../Images/GiftShopChessBoard.jpg'
-import GiftShopCrystalTree from '../Images/GiftShopCrystalTree.jpg'
-import GiftShopCrystalTree2 from '../Images/GiftShopCrystalTree2.jpg'
-import GiftShopFossils from '../Images/GiftShopFossils.jpg'
-import GiftShopFossilShells from '../Images/GiftShopFossilShells.jpg'
-import GiftShopFossilSingle from '../Images/GiftShopFossilSingle.jpg'
-import GiftShopGlassAnimals from '../Images/GiftShopGlassAnimals.jpg'
-import GiftShopHeartAmythest from '../Images/GiftShopHeartAmythest.jpg'
+import GiftShopGemstoneTree from '../Images/GiftShopGemstoneTree.jpg'
+import GiftShopGemstoneTree2 from '../Images/GiftShopGemstoneTree2.jpg'
+import GiftShopFossilTrilobite from '../Images/GiftShopFossilTrilobite.jpg'
+import GiftShopFossilAmmonite from '../Images/GiftShopFossilAmmonite.jpg'
+import GiftShopRockAnimals from '../Images/GiftShopRockAnimals.jpg'
+import GiftShopHeartAmethyst from '../Images/GiftShopHeartAmethyst.jpg'
 import GiftShopJewelry from '../Images/GiftShopJewelry.jpg'
 import GiftShopNecklaces from '../Images/GiftShopNecklaces.jpg'
 import GiftShopPetrifiedWood from '../Images/GiftShopPetrifiedWood.jpg'
@@ -82,16 +81,15 @@ import RandomGiftShopPreview from '../Images/RandomGiftShopPreview.jpg'
     CaveTourSights7,
     CaveTourSights8,
     CementBackground,
-    GiftShopAmythestCollection,
+    GiftShopAmethystCollection,
     GiftShopBismuth,
     GiftShopChessBoard,
-    GiftShopCrystalTree,
-    GiftShopCrystalTree2,
-    GiftShopFossils,
-    GiftShopFossilShells,
-    GiftShopFossilSingle,
-    GiftShopGlassAnimals,
-    GiftShopHeartAmythest,
+    GiftShopGemstoneTree,
+    GiftShopGemstoneTree2,
+    GiftShopFossilAmmonite,
+    GiftShopFossilTrilobite,
+    GiftShopRockAnimals,
+    GiftShopHeartAmethyst,
     GiftShopJewelry,
     GiftShopNecklaces,
     GiftShopPetrifiedWood,
