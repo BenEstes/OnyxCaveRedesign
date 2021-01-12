@@ -64,11 +64,11 @@ export default function App() {
           </h5>
 
           <h5 className='stay-connected'>Stay Connected:
-            <a href='tel:+12707732323'> (270) 773-2323</a>
+            <a href='tel:+12707732323' style={{color: 'black', textDecoration: 'underline'}}> (270) 773-2323</a>
           </h5>
 
           <h5 className='built-by'>Website Built and Powered By:
-            <a href='https://sites.google.com/barren.kyschools.us/bcskillsdevelopmentacademy' rel="noreferrer" target='_blank'> BCSkills</a>
+            <a href='https://sites.google.com/barren.kyschools.us/bcskillsdevelopmentacademy' rel="noreferrer" target='_blank' style={{color: 'black', textDecoration: 'underline'}}> BCSkills</a>
           </h5>
 
         </div>
