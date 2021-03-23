@@ -1,18 +1,11 @@
-/* Home Page CSS */
-/* * {
-  color: black;
-} */
-
 * {
   font-family: 'Nanum Myeongjo', serif;
 }
-
 .home-container{
   height: 100%;
   width: 100%;
   /* display: flex; */
-}
-  
+}  
 .bg {
   background-image: url('../../Images/OnyxCaveLogoLarge.png');
   height: 0;
@@ -21,13 +14,11 @@
   background-repeat: no-repeat;
   background-size: contain; 
   padding-top: 40.41%;
-}
-  
+} 
 .onyx-dark{
   background-color: #241e20;
   color: #241e20;
 }
-  
 .info-container {
   /* position: relative; */
   background-color: #241e20;
@@ -36,28 +27,23 @@
   display: flex;
   justify-content: space-between;  align-items: stretch;
 }
-  
 .info-inner-container {
   padding: 1% 5%;
   padding-top: 30px;
   width: 50%;
   text-align: center;
 }
-
 .info-container div h1 {
   font-size: 2.5rem;
   padding-bottom: 30px;
 }
-
 .info-container div p {
   font-size: 1.5rem;
 }
-
 .info-image{
   border-radius: 20px;
   margin-bottom: 40px;
 }
-  
 @media only screen and (max-width: 1024px) {
   .info-container {
     display: block;
@@ -67,13 +53,10 @@
     width: 100%;
     font-size: 1.25rem;
   }
-
   .info-container div h1{
     font-size: 2rem;
   }
-  
   .info-container div p{
     padding: 25px;
   }
-  
 }

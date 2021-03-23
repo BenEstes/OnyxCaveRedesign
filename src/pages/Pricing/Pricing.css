@@ -1,9 +1,8 @@
-/* Pricing Page CSS */
 .background-div{
   height: 100%;
   width: 100%;
-  background-color: #241e20;}
-  
+  background-color: #241e20;
+}
 #header {
   color: white;
   background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.7)), url("../../Images/CaveTourSights7.jpeg");
@@ -11,19 +10,15 @@
   background-position: center;
   background-size: cover;
 }
-
 .display-3 {
   padding-top: 30px;
 }
-
-
 .pricing-card-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 30px;
 }
-
 .pricing-header {
   display: block;
   font-size: 4.5rem;
@@ -32,49 +27,39 @@
   margin: auto;
   text-align: center;
 }
-
 .pricing-card{
   width: 350px;
 }
-  
 .pricing-card-img{
   height: 100%;
   width: 100%;
 }
-
 .pricing-ages, .pricing-price{
   display: inline-block;
   position: relative;
   font-size: 1.3em;
   font-weight: bold;
 }
-
 .pricing-ages{
   left: 60%;
   bottom: 56%;
 }
-
 .pricing-price{
   left: 35%;
   bottom: 41%;
 }
-
 @media (max-width: 576px) {
   #header {
     padding: 0 40px;
   }
-  
   .display-3 {
     font-size: 40px;
   }
-
   .pricing-ages{
     font-size: 1.1rem;
   }
-
   .pricing-price{
     font-size: 1.15rem;
-
   }
 }
   

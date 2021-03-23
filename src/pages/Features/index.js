@@ -1,7 +1,12 @@
+import React from 'react'
 import Carousel from '../../components/ImageCarousel'
-import CaveInfoCard from '../../components/CaveInfoCard'
+// import CaveInfoCard from '../../components/CaveInfoCard'
 import ImageHelper from '../../components/ImageHelper'
 import './Features.css'
+
+import { Suspense, lazy } from 'react'
+
+const CaveInfoCard = lazy(() => import('../../components/CaveInfoCard'))
 
 
 function Features() {
@@ -9,6 +14,7 @@ function Features() {
         <div className='features-container'>
             <Carousel />
             <div className='card-container'>
+              <Suspense fallback={<div>Loading...</div>}>
                 <CaveInfoCard
                     cardImage={ImageHelper.CaveCoral}
                     cardName='Cave Coral'
@@ -16,11 +22,15 @@ function Features() {
 
                     Onyx Cave is best known for the abundance of cave coral that covers its wall. Cave coral can be seen on the walls as well as on pieces of cave bacon and columns throughout the cave.'
                 />
+              </Suspense>
+              <Suspense fallback={<></>}>
                 <CaveInfoCard
                     cardImage={ImageHelper.CaveTourNeedltites}
                     cardName='Needltites'
                     cardDescription='Needltites are a special form of cave coral. They have sharp points, just like needles.'
                 />
+              </Suspense>
+              <Suspense fallback={<></>}>
                 <CaveInfoCard
                     cardImage={ImageHelper.CaveColumn}
                     cardName='Columns'
@@ -28,6 +38,8 @@ function Features() {
 
                     This picture is a column located in the main chamber. It measures only three inches tall, but about fifteen feet further down the path is a 40-foot tall column.'
                 />
+              </Suspense>
+              <Suspense fallback={<></>}>
                 <CaveInfoCard
                     cardImage={ImageHelper.CaveStalactites}
                     cardName='Stalactites'
@@ -39,6 +51,8 @@ function Features() {
                     
                     Stalactites, which resemble icicles, are pointed at the end because water will hang from the end before falling off.'
                 />
+              </Suspense>
+              <Suspense fallback={<></>}>
                 <CaveInfoCard
                     cardImage={ImageHelper.CaveBacon}
                     cardName='Cave Bacon'
@@ -46,6 +60,8 @@ function Features() {
 
                     This cave bacon is part of a larger wall of cave bacon - a wall often called the "waterfall wall" because it looks like a frozen waterfall.'
                 />
+              </Suspense>
+              <Suspense fallback={<></>}>
                 <CaveInfoCard
                     cardImage={ImageHelper.CaveDrappery2}
                     cardName='Cave Drappery'
@@ -53,6 +69,7 @@ function Features() {
 
                     This particular drapery is located beside the cave's largest column."
                 />
+              </Suspense>
             </div>
         </div>
     );

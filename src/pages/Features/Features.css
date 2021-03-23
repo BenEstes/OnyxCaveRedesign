@@ -1,32 +1,27 @@
-/* Features CSS */
 .features-container {
     background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.7)), url("../../Images/CaveTourSights8.jpeg");
     background-size: cover;
     background-color: black;
     object-fit: cover;
-  }
-  
+  }  
   .carousel {
     margin: auto;
     width: 80%;
     padding-top: 50px;
-  }
-  
+  } 
   .img-container{
     width: 100%;
     height: 575px;
     overflow: hidden;
     border: 10px solid #fcd904;
     border-radius: 20px;
-  }
-  
+  } 
   .img-container img {
     height: 100%;
     width: 100%; 
     position: relative;
     object-fit: cover;
   }
-
   .left-arrow {
     height: calc(100% - 50px);
     width: 100%;
@@ -37,7 +32,6 @@
     bottom: 0;
     cursor: pointer;
   }
-
   .right-arrow {
     height: calc(100% - 50px);
     width: 100%;
@@ -50,40 +44,32 @@
     bottom: 0;
     cursor: pointer;
   }
-
   .left-arrow i {
     position: relative;
     top: 50%;
     left: 5%;
   }
-
   .right-arrow i {
     position: relative;
     top: 50%;
     float: right;
     right: 5%;
   }
-  
-  /* CaveInfoCard CSS */
-  
   .card-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
-  
   .flip-card-container{
     margin: 50px;
   }
-  
   .flip-card {
     background-color: transparent;
     width: 400px;
     height: 400px;
     perspective: 1000px;
   }
-  
   .flip-card-inner {
     width: 100%;
     height: 100%;
@@ -92,18 +78,15 @@
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
-  
   .flip-card-inner img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
     box-shadow: 5px 10px;
   }
-  
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
-  
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -112,16 +95,13 @@
     backface-visibility: hidden;
     border-radius: 20px;
   }
-  
   .flip-card-front {
     background-color: #bbb;
     color: black;
   }
-  
   .flip-card-front img {
     object-fit: cover;
   }
-  
   .flip-card-back {
     font-size: 1.25rem;
     initial-letter: -0.5px;
@@ -132,14 +112,12 @@
     transform: rotateY(180deg);
     box-shadow: 5px 10px #fcd904;
   }
-
 @media (max-width: 576px){
   .img-container{
     width: 100%;
     height: 200px;
     overflow: hidden;
   }
-
   .flip-card {
     width: 300px;
     height: 300px;

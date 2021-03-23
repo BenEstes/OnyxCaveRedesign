@@ -1,51 +1,34 @@
 * {
   font-family: 'Lato', sans-serif;
 }
-
 .parent-container{
   background-color: #fcd904;
 }
-
-
-/* NavBar Styling Override */
 .navbar {
   z-index: 1;
   position: sticky;
   top: 0;
 }
-
 .navbar-collapse.collapse {
   display: block!important;
 }
-
 .navbar-nav {
   flex-direction: row;
 }
-
 .navbar-nav .nav-link {
   padding-right: .4rem;
   padding-left: .4rem;
 }
-
 @media (max-width: 374px) {
   .navbar-brand{
     display: none;
   }
 }
-
-@media (max-width: 350px) {
-
-}
-
-
-/* Footer CSS */
-
 .footer-info {
   padding: 40px 0px 20px 0px;
   text-align: center;
   background-color: inherit;
 }
-
 .fa-facebook{
   font-size: 30px;
 }

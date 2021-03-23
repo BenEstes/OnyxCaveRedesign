@@ -1,20 +1,10 @@
-/* No Match Page */
 .main-no-match {
-  /* margin: 0; */
-  /* padding: 0; */
   min-height: 100vh;
   background-color: yellow;
   background-image: url('../../Images/NoMatchBackground.png');
-  /* height: 100%; */
-  /* width: 100%; */
-  /* background-repeat: no-repeat; */
   background-size: cover;
   object-fit: cover;
 }
-
-
-
-
 .no-match-container{
   font-size: 2rem;
   text-align: center;
@@ -29,7 +19,6 @@
   font-weight: 900;
   letter-spacing: 20px;
 }
-
 @media only screen and (max-width: 576px) {
   .no-match-container {
     font-size: 1rem;

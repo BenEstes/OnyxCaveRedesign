@@ -1,4 +1,4 @@
-function CaveInfoCard({ cardImage, cardName, cardDescription }) {
+const CaveInfoCard = ({ cardImage, cardName, cardDescription }) => {
     return (
         <div className='flip-card-container'>
             <div className="flip-card col">

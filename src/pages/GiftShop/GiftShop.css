@@ -1,52 +1,42 @@
-/* GiftShop CSS */
+
 .giftshop-page-container{
   background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.7)), url("../../Images/CementBackground.jpeg");
   background-color: black;
 }
-  
 .welcome-container{
   color: white;
   text-align: center;
   padding: 40px;
 }
-
 .welcome-container h1{
   padding-bottom: 50px;
 }
-
 .welcome-container p{
   padding: 0px 20px;
 }
-
 .giftshop-items{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-
-
-/* GiftShop Card */
 .card-body{
   font-size: 1.25rem;
   background-color: #fcd904;
   text-align: center;
   font-weight: bold;
 }
-
 .giftshop-card{
   height: 300px;
   width: 300px;
   margin: 15px;
   padding: 5px;
 }
-
 .card-img-top{
   height: 100%;
   width: 100%;
   border-radius: 5px solid #fcd904;
 }
-
 .card img {
   max-height: 225px;
   object-fit: cover;
